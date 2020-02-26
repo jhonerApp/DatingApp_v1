@@ -9,7 +9,5 @@ namespace DatinApp.API.Controllers
         Task<tbl_user> Login(string username, string password);
         Task<bool> UserExist(string username);
 
-        
-
     }
 }

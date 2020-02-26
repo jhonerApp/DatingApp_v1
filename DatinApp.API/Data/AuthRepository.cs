@@ -18,6 +18,7 @@ namespace DatinApp.API.Data
 
             var user = await _context.tbl_user.FirstOrDefaultAsync(x => x.Username == username);
 
+            
             if (user == null)
                 return null;
 
@@ -65,6 +66,7 @@ namespace DatinApp.API.Data
 
             await _context.tbl_user.AddAsync(user);
             await _context.SaveChangesAsync();
+           
 
             return user;
         }

@@ -1116,30 +1116,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Predator\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jhoner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Predator\\Documents\\DatingApp_v1-master\\DatinApp.API\\DatinApp.API.csproj",
+      "projectUniqueName": "C:\\DatingApp\\DatinApp.API\\DatinApp.API.csproj",
       "projectName": "DatinApp.API",
-      "projectPath": "C:\\Users\\Predator\\Documents\\DatingApp_v1-master\\DatinApp.API\\DatinApp.API.csproj",
-      "packagesPath": "C:\\Users\\Predator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Predator\\Documents\\DatingApp_v1-master\\DatinApp.API\\obj\\",
+      "projectPath": "C:\\DatingApp\\DatinApp.API\\DatinApp.API.csproj",
+      "packagesPath": "C:\\Users\\jhoner\\.nuget\\packages\\",
+      "outputPath": "C:\\DatingApp\\DatinApp.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Predator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jhoner\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1189,7 +1183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

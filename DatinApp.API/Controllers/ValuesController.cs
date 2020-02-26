@@ -23,12 +23,10 @@ namespace DatinApp.API.Controllers
         }
 
         // Get api/values
-        [HttpGet]
+        [HttpGet("GetValues")]
         public  async Task<IActionResult> GetValues()
         {
-
             var values =  await contexts.tbl_values.ToListAsync();
-
             return Ok(values);
         }
         // Get api/values/5

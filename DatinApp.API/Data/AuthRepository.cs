@@ -67,6 +67,7 @@ namespace DatinApp.API.Data
             await _context.tbl_user.AddAsync(user);
             await _context.SaveChangesAsync();
            
+           
 
             return user;
         }

@@ -3,6 +3,12 @@
 		{
 			"name": "DatingApp",
 			"path": "."
+		},
+		{
+			"path": "DatinApp.API"
+		},
+		{
+			"path": "DatingAppv1-SPA"
 		}
 	]
 }

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 using DatinApp.API.Data;
 using DatinApp.API.Dtos;
 using DatinApp.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 namespace DatinApp.API.Controllers
 {
-
+    
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase

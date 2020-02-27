@@ -5,11 +5,12 @@ using DatinApp.API.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DatinApp.API.Controllers
 {
 
-    //http:localhost:500/api/values
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ValuesController : ControllerBase
@@ -23,13 +24,15 @@ namespace DatinApp.API.Controllers
         }
 
         // Get api/values
+
         [HttpGet("GetValues")]
-        public  async Task<IActionResult> GetValues()
+        public async Task<IActionResult> GetValues()
         {
-            var values =  await contexts.tbl_values.ToListAsync();
+            var values = await contexts.tbl_values.ToListAsync();
             return Ok(values);
         }
         // Get api/values/5
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {

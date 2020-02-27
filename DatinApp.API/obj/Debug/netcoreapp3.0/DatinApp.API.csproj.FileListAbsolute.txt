@@ -186,3 +186,11 @@ C:\DatingApp\DatinApp.API\obj\Debug\netcoreapp3.0\staticwebassets\DatinApp.API.S
 C:\DatingApp\DatinApp.API\obj\Debug\netcoreapp3.0\staticwebassets\DatinApp.API.StaticWebAssets.xml
 C:\DatingApp\DatinApp.API\obj\Debug\netcoreapp3.0\DatinApp.API.dll
 C:\DatingApp\DatinApp.API\obj\Debug\netcoreapp3.0\DatinApp.API.pdb
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\DatingApp\DatinApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

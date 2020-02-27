@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using DatinApp.API.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace DatinApp.API.Data
 {
     public class AuthRepository : IAuthRepository
@@ -77,7 +78,7 @@ namespace DatinApp.API.Data
             if(await _context.tbl_user.AnyAsync(x => x.Username == username))
                 return true;
 
-            return false;
-        }
+          return false;
+        }   
     }
 }

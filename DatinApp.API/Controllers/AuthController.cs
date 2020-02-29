@@ -80,6 +80,7 @@ namespace DatinApp.API.Controllers
 
             };
 
+            
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
